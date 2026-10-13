@@ -1,7 +1,0 @@
-{
-  "name": "nanoseal-online",
-  "main": "src/worker.js",
-  "compatibility_date": "2025-08-01",
-  "assets": {"directory": "./public", "binding": "ASSETS", "run_worker_first": ["/api/*", "/admin.html"]},
-  "d1_databases": [{"binding":"DB", "database_name":"nanoseal-online-db", "database_id":"REPLACE_WITH_DATABASE_ID"}]
-}

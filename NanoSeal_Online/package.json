@@ -1,6 +1,0 @@
-{
-  "name":"nanoseal-online","private":true,"type":"module",
-  "scripts":{"dev":"wrangler dev","deploy":"wrangler deploy","db:create":"wrangler d1 create nanoseal-online-db","db:init":"wrangler d1 execute nanoseal-online-db --remote --file=schema.sql"},
-  
-  "devDependencies":{"wrangler":"^4.0.0"}
-}
